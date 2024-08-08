@@ -1,12 +1,5 @@
 * {
   box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
-ul, li {
   margin: 0;
   padding: 0;
 }
@@ -17,19 +10,13 @@ body {
   background-color: #FFFFFF;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px; /* Исправление для настройки внутренних отступов */
+  padding: 0 15px; /* Установлен padding для контейнера */
 }
 
-/* Header styles */
+/* Стили для хедера */
 .header {
   border-bottom: 1px solid #e7e9fc;
   background-color: #F8F9FB;
@@ -76,7 +63,7 @@ img {
   font-size: 18px;
   color: #000000;
   text-decoration: none;
-  padding: 24px 0; /* Опция для настройки отступов внутри ссылки */
+  padding: 24px 0; /* Используем padding для определения отступов */
 }
 
 .menu-link:hover,
