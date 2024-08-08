@@ -269,9 +269,9 @@ body {
 /* Footer */
 .footer {
   border-top: 1px solid #E4E5EB;
-  padding: 20px 0;
+  padding: 100px 0;
   text-align: center;
-  background-color: #F8F9FB;
+  background-color: #2E2F42;
 }
 
 .footer__container {
@@ -283,5 +283,9 @@ body {
 .footer__text {
   font-size: 14px;
   color: #434455;
-  max-width: 700px;
+  max-width: 264px;
+}
+
+.logo-footer {
+  color: #FFFFFF;
 }
