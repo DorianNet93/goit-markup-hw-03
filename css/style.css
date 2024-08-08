@@ -33,6 +33,10 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
   background-color: #F8F9FB;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
 }
 
 .header-container {
@@ -188,7 +192,7 @@ body {
 /* Team section */
 .team {
   padding: 120px 0;
-  background-color: #F8F9FB;
+  background-color: #F4F4FD;
 }
 
 .container {
@@ -245,20 +249,41 @@ body {
 
 /* Portfolio section */
 .portfolio {
-  padding: 60px 0;
+  padding: 120px 0; /* Исправлено на 120px */
+}
+
+.container {
+  /* Стили для контейнера, если нужны */
+}
+
+.portfolio__title {
+  margin-bottom: 72px; /* Добавлено для отступа между заголовком и списком */
 }
 
 .portfolio__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  display: flex; /* Добавлено */
+  flex-wrap: wrap; /* Добавлено */
+  column-gap: 24px; /* Добавлено */
+  row-gap: 48px; /* Добавлено */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio__item {
+  width: calc((100% - 48px) / 3); /* Исправлено на 3 элемента в ряду */
+}
+
+.portfolio__item-container {
+  padding: 32px 16px; /* Добавлено */
+  border: 1px solid #e7e9fc; /* Добавлено */
+  border-top: none; /* Добавлено */
 }
 
 .portfolio__item-title {
   font-size: 24px;
   font-weight: 700;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 8px; /* Добавлено для отступа между заголовком и параграфом */
 }
 
 .portfolio__item-text {
@@ -266,24 +291,21 @@ body {
   line-height: 1.5;
 }
 
-/* Footer */
 .footer {
-  border-top: 1px solid #E4E5EB;
-  padding: 100px 0; /* Исправлено на 100px */
-  text-align: center;
   background-color: #2E2F42;
+  padding: 100px 0;
 }
 
 .footer__container {
   display: flex;
   justify-content: center; /* Изменено для центрирования элементов */
-  align-items: center;
   flex-direction: column; /* Добавлено для размещения элементов вертикально */
 }
 
 .footer__link {
   display: inline-block; /* Добавлено */
   margin-bottom: 16px; /* Добавлено */
+  color: #4D5AE5;
 }
 
 .footer__text {
