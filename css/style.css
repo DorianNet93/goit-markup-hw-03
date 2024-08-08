@@ -187,20 +187,49 @@ body {
 
 /* Team section */
 .team {
-  padding: 60px 0;
+  padding: 120px 0;
   background-color: #F8F9FB;
+}
+
+.container {
+  max-width: 1200px; /* Укажите желаемую максимальную ширину контейнера */
+  margin: 0 auto;    /* Центрирует контейнер */
+  padding: 0 16px;   /* Отступы внутри контейнера (по желанию) */
+}
+
+.team__title {
+  margin-bottom: 72px;
+  font-size: 32px; /* При необходимости можно добавить размер шрифта */
+  font-weight: 700;
+  text-align: center; /* Выравнивание заголовка по центру */
 }
 
 .team__list {
   display: flex;
-  gap: 30px;
+  gap: 24px;
+}
+
+.team__item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+  overflow: hidden; /* Это нужно, чтобы закругления работали на изображениях */
+}
+
+.team__item-content {
+  padding: 32px 0;
+  text-align: center; /* Выравнивание текста внутри контейнера по центру */
+}
+
+.team__img {
+  display: block;
+  width: 100%; /* Изображения будут растягиваться по ширине элемента */
+  height: auto;
 }
 
 .team__item-title {
   font-size: 24px;
   font-weight: 700;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .team__item-text {
