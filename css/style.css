@@ -100,37 +100,37 @@ body {
 
 .hero {
   padding: 188px 0;
-  text-align: center;
+  text-align: center; /* Центрує текст і кнопку */
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2E2F42;
-  color: #FFFFFF;
+  background-color: #2E2F42; /* Колір фону секції */
+  color: #FFFFFF; /* Колір тексту секції */
 }
 
 /* Заголовок */
 .hero__title {
-  max-width: 496px;
-  margin-bottom: 20px;
-  font-size: 2.5rem;
-  line-height: 1.2;
-  color: #FFFFFF;
+  max-width: 496px; /* Максимальна ширина заголовка */
+  margin-bottom: 20px; /* Відступ знизу заголовка */
+  font-size: 2.5rem; /* Розмір шрифту заголовка */
+  line-height: 1.2; /* Висота рядка заголовка */
+  color: #FFFFFF; /* Колір тексту заголовка */
 }
 
 /* Кнопка */
 .hero__button {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  background-color: var(--button-background-color, #4d5ae5);
-  border-radius: 4px;
-  cursor: pointer;
-  color: #fff;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 56px; /* Для центрування тексту вертикально */
-  margin: 0 auto; /* Центрування кнопки горизонтально */
+  display: block; /* Робить кнопку блочним елементом */
+  min-width: 169px; /* Мінімальна ширина кнопки */
+  height: 56px; /* Висота кнопки */
+  border: none; /* Вимикає стандартні обводки кнопки */
+  background-color: #4d5ae5; /* Колір фону кнопки */
+  border-radius: 4px; /* Заокруглення кутів кнопки */
+  color: #FFFFFF; /* Колір тексту кнопки */
+  font-size: 1rem; /* Розмір шрифту кнопки */
+  text-align: center; /* Центрує текст всередині кнопки */
+  line-height: 56px; /* Центрує текст вертикально */
+  margin: 0 auto; /* Центрує кнопку горизонтально */
+  cursor: pointer; /* Тип курсору при наведенні */
 }
 
 
