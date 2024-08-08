@@ -199,30 +199,33 @@ body {
 
 .team__title {
   margin-bottom: 72px;
-  font-size: 32px; /* При необходимости можно добавить размер шрифта */
+  font-size: 32px; /* Размер шрифта для заголовка */
   font-weight: 700;
   text-align: center; /* Выравнивание заголовка по центру */
 }
 
 .team__list {
   display: flex;
-  gap: 24px;
+  gap: 24px; /* Отступы между элементами списка */
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0;
+  margin: 0;
 }
 
 .team__item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  border-radius: 0 0 4px 4px;
-  overflow: hidden; /* Это нужно, чтобы закругления работали на изображениях */
+  flex-basis: calc((100% - 3 * 24px) / 4); /* Ширина элемента списка */
+  border-radius: 0 0 4px 4px; /* Заокругления */
+  overflow: hidden; /* Обеспечивает, что контент не выходит за рамки элемента */
 }
 
 .team__item-content {
-  padding: 32px 0;
-  text-align: center; /* Выравнивание текста внутри контейнера по центру */
+  padding: 32px 0; /* Отступы внутри элемента списка */
+  text-align: center; /* Выравнивание текста по центру */
 }
 
 .team__img {
   display: block;
-  width: 100%; /* Изображения будут растягиваться по ширине элемента */
+  width: 100%; /* Изображения растягиваются по ширине элемента */
   height: auto;
 }
 
@@ -236,6 +239,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
 }
+
 
 /* Portfolio section */
 .portfolio {
