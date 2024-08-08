@@ -233,11 +233,13 @@ body {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 8px;
+  text-align: center; /* Выравнивание заголовка по центру */
 }
 
 .team__item-text {
   font-size: 18px;
   line-height: 1.5;
+  text-align: center; /* Выравнивание текста по центру */
 }
 
 
