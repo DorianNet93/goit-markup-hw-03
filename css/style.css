@@ -12,9 +12,9 @@ p {
   margin: 0;
 }
 
-ul,li {
+ul, li {
   margin: 0;
-  padding: 0  ;
+  padding: 0;
 }
 
 body {
@@ -26,254 +26,210 @@ body {
   align-items: center;
 }
 
-h1 {
-  font-weight: 700;
-  line-height: 60px;
-  font-size: 56px;
-  color: #FFFFFF;
-  letter-spacing: 2%;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 2%;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
-
-a {
-  text-decoration: none;
-  color: currentColor;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.list {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
+/* Header styles */
 .header {
+  border-bottom: 1px solid #E4E5EB;
+  background-color: #F8F9FB;
+}
+
+.header__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
-.nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  font-size: 28px;
+  font-weight: 900;
   text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
+  color: #000000;
+  text-decoration: none;
 }
 
-.logo-header {
-  color: #2e2f42;
+.logo--color {
+  color: #2196F3;
 }
 
-.logo--text {
-  color: #f4f4fd;
-}
-
-.nav--li {
-  margin-right: 40px;
-}
-
-.nav--link {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  
-}
-
-.nav--li:last-child {
-  margin-right: 0;
-}
-
-.nav--link:hover {
-  color: #404bbf;
-}
-
-.nav--link:focus {
-  color: #404bbf;
-}
-
-.address {
-  font-style: normal
-}
-
-.adress--li {
-  margin-right: 40px;
-}
-
-.adress--li:last-child {
-  margin-right: 40px;
-}
-
-.adress--link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.adress--link:hover {
-  color: #404bbf;
-}
-
-.adress--link:focus {
-  color: #404bbf;
-}
-
-
-
-.hero {
-  background-color: #2E2F42;
+.nav__list {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin-left: 35px;
+  gap: 20px;
 }
 
-.hero--zag {
-  line-height: 1.07;
+.nav__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #2196F3;
+}
+
+.header__contacts {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacts__list {
+  display: flex;
+  gap: 20px;
+}
+
+.contacts__item {
+  list-style: none;
+}
+
+.contacts__link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+  color: #2196F3;
+}
+
+/* Hero section */
+.hero {
+  background-color: #F3F3F3;
+  padding: 40px 0;
   text-align: center;
-  letter-spacing: 0.02em;
-  margin-bottom: 48px;
 }
 
-.hero--button {
-  font-family: "Roboto", sans-serif;
-  background-color: #4D5AE5;
+.hero__title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hero__button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #2196F3;
   color: #FFFFFF;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  border: none;
   cursor: pointer;
-  padding: 16px 32px;
 }
 
-.hero--button:hover {
-  background-color: #404BBF
+.hero__button:hover,
+.hero__button:focus {
+  background-color: #0d8bec;
 }
 
-.hero--button:focus {
-  background-color: #404BBF
-}
-
-
-
-.studio--zag {
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.studio--zag__three {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.studio__text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-
-
-
-.team_section {
-  background-color: #F4F4FD;
-}
-
-.team_section--zag {
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.list--team{
+/* Studio section */
+.studio {
+  padding: 60px 0;
   background-color: #FFFFFF;
 }
 
-.team_section--zag-three {
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.studio__list {
+  display: flex;
+  gap: 30px;
 }
 
-.team__text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.studio__item {
+  max-width: 270px;
 }
 
-
-
-
-
-.portfolio--zag{
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.portfolio--zag-trhee {
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.portfolio__text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-
-.footer {
-  background-color: #2E2F42;
-  color: #FFFFFF;
+.studio__item-title {
+  font-size: 24px;
   font-weight: 700;
-  letter-spacing: 0.03em;
+  margin-bottom: 15px;
 }
 
-.logo-footer {
-  color: #f4f4fd;
-}
-
-.footer--text {
+.studio__item-text {
+  font-size: 18px;
   line-height: 1.5;
-  color: #F4F4FD;
-  letter-spacing: 0.02em;
+}
+
+/* Team section */
+.team {
+  padding: 60px 0;
+  background-color: #F8F9FB;
+}
+
+.team__list {
+  display: flex;
+  gap: 30px;
+}
+
+.team__item-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.team__item-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Portfolio section */
+.portfolio {
+  padding: 60px 0;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.portfolio__item-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.portfolio__item-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid #E4E5EB;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #F8F9FB;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: #434455;
+  max-width: 700px;
 }
