@@ -24,6 +24,11 @@ body {
   padding: 0 15px 0 15px; /* Установлен padding для контейнера */
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* Стили для хедера */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -153,19 +158,26 @@ body {
   padding: 120px 0;
   background-color: #FFFFFF;
 }
+
+.container {
+  max-width: 1200px; /* Укажите желаемую максимальную ширину контейнера */
+  margin: 0 auto;    /* Центрирует контейнер */
+  padding: 0 16px;   /* Отступы внутри контейнера (по желанию) */
+}
+
 .studio__list {
   display: flex;
   gap: 24px;
 }
 
 .studio__item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4); /* Ширина с учетом отступов */
 }
 
 .studio__item-title {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 8px; /* Отступ между заголовком и параграфом */
 }
 
 .studio__item-text {
