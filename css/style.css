@@ -269,23 +269,29 @@ body {
 /* Footer */
 .footer {
   border-top: 1px solid #E4E5EB;
-  padding: 100px 0;
+  padding: 100px 0; /* Исправлено на 100px */
   text-align: center;
   background-color: #2E2F42;
 }
 
 .footer__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Изменено для центрирования элементов */
   align-items: center;
+  flex-direction: column; /* Добавлено для размещения элементов вертикально */
+}
+
+.footer__link {
+  display: inline-block; /* Добавлено */
+  margin-bottom: 16px; /* Добавлено */
 }
 
 .footer__text {
   font-size: 14px;
   color: #434455;
-  max-width: 264px;
+  max-width: 264px; /* Установлено на 264px */
 }
 
-.logo-footer {
+.footer__logo-color {
   color: #FFFFFF;
 }
