@@ -321,6 +321,10 @@ body {
 }
 
 .footer__link {
+  display: inline-block;
+}
+
+.footer__link {
   margin-bottom: 16px; /* Добавлено */
   color: #4D5AE5;
 }
