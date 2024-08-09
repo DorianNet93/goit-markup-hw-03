@@ -249,12 +249,11 @@ body {
 
 /* Portfolio section */
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .container {
-  /* Стандартні стилі для контейнера */
+  /* Дефолтний клас для контейнера */
 }
 
 .portfolio__title {
@@ -282,6 +281,8 @@ body {
 }
 
 .portfolio__item-title {
+  font-size: 24px;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 
@@ -289,7 +290,6 @@ body {
   font-size: 18px;
   line-height: 1.5;
 }
-
 
 
 .footer {
