@@ -121,6 +121,7 @@ body {
 
 .background--sec-one {
   background-color: #2E2F42; /* Колір фону секції */
+  padding: 188px 0;
 }
 
 .hero {
@@ -271,10 +272,6 @@ body {
   margin: 0;
 }
 
-.portfolio__item--first {
-  width: calc((100% - 48px) / 3);
-}
-
 .portfolio__item {
   width: calc((100% - 48px) / 3);
   text-align: left; /* Текст вирівнюється зліва */
@@ -292,25 +289,6 @@ body {
   height: auto; /* Зберігає пропорції зображення */
   object-fit: cover; /* Обрізає зображення, щоб заповнити контейнер */
   display: block; /* Видаляє додатковий простір під зображенням */
-}
-
-.portfolio__item-title {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.portfolio__item-text {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-/* Стили для контейнера та заголовка */
-.portfolio__item-container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  overflow: hidden;
 }
 
 .portfolio__item-title {
