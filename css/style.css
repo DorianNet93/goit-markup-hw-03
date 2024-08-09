@@ -249,19 +249,18 @@ body {
 
 /* Portfolio section */
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0; /* Відступи для секції */
 }
 
 .container {
   /* Можна додати додаткові стилі для контейнера */
 }
 
-.portfolio__title {
+.portfolio-title {
   margin-bottom: 72px; /* Відступ між заголовком і списком */
 }
 
-.portfolio__list {
+.portfolio-list {
   display: flex; /* Горизонтальне розташування елементів */
   flex-wrap: wrap; /* Перенос елементів на новий рядок */
   column-gap: 24px; /* Горизонтальні відступи між пунктами списку */
@@ -271,17 +270,17 @@ body {
   margin: 0;
 }
 
-.portfolio__item {
+.portfolio-item {
   width: calc((100% - 48px) / 3); /* Ширина елемента списку */
 }
 
-.portfolio__item-container {
+.portfolio-item-container {
   padding: 32px 16px; /* Відступи всередині контейнера */
   border: 1px solid #e7e9fc; /* Обводка контейнера */
   border-top: none; /* Відсутність обводки зверху */
 }
 
-.portfolio__item-title {
+.portfolio-item-title {
   margin-bottom: 8px; /* Відступ між заголовком та параграфом */
 }
 
