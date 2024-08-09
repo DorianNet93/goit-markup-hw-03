@@ -13,7 +13,14 @@ ul,li {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute; /* Виносить елемент з нормального потоку документа */
+  width: 1px; /* Зменшує ширину елемента до мінімуму */
+  height: 1px; /* Зменшує висоту елемента до мінімуму */
+  margin: -1px; /* Відсуває елемент в сторону */
+  padding: 0; /* Видаляє відступи */
+  overflow: hidden; /* Приховує все, що виходить за межі */
+  clip: rect(0, 0, 0, 0); /* Вирізає видиму область до нуля */
+  border: 0; /* Видаляє обводки */
 }
 
 body {
@@ -25,7 +32,7 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px; /* Установлен padding для контейнера */
+  padding: 0 15px; /* Установлен padding для контейнера */
 }
 
 .section {
@@ -309,12 +316,11 @@ body {
   flex-direction: column; /* Добавлено для размещения элементов вертикально */
 }
 
-.footer__container a {
+.footer__container > a {
   display: inline-block;
 }
 
 .footer__link {
-  display: inline-block; /* Добавлено */
   margin-bottom: 16px; /* Добавлено */
   color: #4D5AE5;
 }
