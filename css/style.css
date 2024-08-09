@@ -249,47 +249,48 @@ body {
 
 /* Portfolio section */
 .portfolio {
-  padding: 120px 0; /* Відступи секції зверху та знизу */
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .container {
-  /* Додаткові стилі для контейнера, якщо необхідно */
+  /* Стандартні стилі для контейнера */
 }
 
 .portfolio__title {
-  margin-bottom: 72px; /* Відступ між заголовком і списком */
+  margin-bottom: 72px;
 }
 
 .portfolio__list {
-  display: flex; /* Відображення елементів в рядок */
-  flex-wrap: wrap; /* Перенос елементів на новий рядок */
-  column-gap: 24px; /* Горизонтальний відступ між пунктами списку */
-  row-gap: 48px; /* Вертикальний відступ між рядами пунктів списку */
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .portfolio__item {
-  width: calc((100% - 48px) / 3); /* Ширина для кожного пункту списку */
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio__item-container {
-  padding: 32px 16px; /* Відступи всередині контейнера */
-  border: 1px solid #e7e9fc; /* Обводка по периметру контейнера */
-  border-top: none; /* Відсутність обводки зверху контейнера */
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio__item-title {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 8px; /* Відступ між заголовком і параграфом */
+  margin-bottom: 8px;
 }
 
 .portfolio__item-text {
   font-size: 18px;
   line-height: 1.5;
 }
+
+
 
 .footer {
   background-color: #2E2F42;
