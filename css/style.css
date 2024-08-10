@@ -310,12 +310,12 @@ body {
 
 .footer__container {
   display: flex;
-  justify-content: center; /* Изменено для центрирования элементов */
-  flex-direction: column; /* Добавлено для размещения элементов вертикально */
+  justify-content: center; 
+  flex-direction: column; 
 }
 
 .footer__link {
-  margin-bottom: 16px; /* Добавлено */
+  margin-bottom: 16px; 
   color: #4D5AE5;
   display: inline-block;
 }
@@ -323,7 +323,7 @@ body {
 .footer__text {
   font-size: 14px;
   color: #F4F4FD;
-  max-width: 264px; /* Установлено на 264px */
+  max-width: 264px; 
 }
 
 .footer__logo-color {
