@@ -279,7 +279,7 @@ body {
 
 .portfolio__item {
   width: calc((100% - 48px) / 3);
-  text-align: left; /* Текст вирівнюється зліва */
+  text-align: left;
 }
 
 .portfolio__item-container {
