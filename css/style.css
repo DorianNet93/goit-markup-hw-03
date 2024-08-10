@@ -30,6 +30,7 @@ body {
 }
 
 .container {
+  max-width: 1200px;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px
@@ -310,17 +311,10 @@ body {
   flex-direction: column; /* Добавлено для размещения элементов вертикально */
 }
 
-.footer__container > a {
-  display: inline-block;
-}
-
-.footer__link {
-  display: inline-block;
-}
-
 .footer__link {
   margin-bottom: 16px; /* Добавлено */
   color: #4D5AE5;
+  display: inline-block;
 }
 
 .footer__text {
