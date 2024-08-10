@@ -309,15 +309,10 @@ body {
   padding: 100px 0;
 }
 
-.footer__container {
-  display: flex;
-  justify-content: center; 
-  flex-direction: column; 
-}
-
 .footer__link {
   margin-bottom: 16px; 
   color: #4D5AE5;
+  display: inline-block;
 }
 
 .footer__text {
