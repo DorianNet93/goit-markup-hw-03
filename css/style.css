@@ -73,6 +73,7 @@ body {
   color: #000000;
   text-decoration: none;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo-color {
