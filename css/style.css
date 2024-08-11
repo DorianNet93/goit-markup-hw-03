@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px
@@ -67,8 +67,9 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-size: 28px;
-  font-weight: 900;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
@@ -88,11 +89,12 @@ body {
 
 .menu-item {
   list-style: none;
+  
 }
 
 .menu-link {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000;
   text-decoration: none;
   padding: 24px 0; /* Используем padding для определения отступов */
@@ -120,7 +122,8 @@ body {
 .contacts-link {
   color: #000000;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
+  font-style: normal;
 }
 
 .contacts-link:hover,
@@ -136,7 +139,6 @@ body {
 }
 
 .hero {
-  padding: 188px 0;
   text-align: center; /* Центрує текст і кнопку */
   display: flex;
   flex-direction: column;
@@ -148,9 +150,10 @@ body {
 /* Заголовок */
 .hero__title {
   max-width: 496px; /* Максимальна ширина заголовка */
-  margin-bottom: 20px; /* Відступ знизу заголовка */
-  font-size: 2.5rem; /* Розмір шрифту заголовка */
-  line-height: 1.2; /* Висота рядка заголовка */
+  margin-bottom: 48px; /* Відступ знизу заголовка */
+  font-size: 56px; /* Розмір шрифту заголовка */
+  font-weight: 700;
+  line-height: 60px; /* Висота рядка заголовка */
   color: #FFFFFF; /* Колір тексту заголовка */
 }
 
@@ -179,8 +182,6 @@ body {
   background-color: #FFFFFF;
 }
 
-
-
 .studio__list {
   display: flex;
   gap: 24px;
@@ -192,12 +193,12 @@ body {
 
 .studio__item-title {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 8px; /* Отступ между заголовком и параграфом */
 }
 
 .studio__item-text {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -210,7 +211,7 @@ body {
 
 .team__title {
   margin-bottom: 72px;
-  font-size: 32px; /* Размер шрифта для заголовка */
+  font-size: 36px; /* Размер шрифта для заголовка */
   font-weight: 700;
   text-align: center; /* Выравнивание заголовка по центру */
 }
@@ -227,6 +228,7 @@ body {
   flex-basis: calc((100% - 3 * 24px) / 4); /* Ширина элемента списка */
   border-radius: 0 0 4px 4px; /* Заокругления */
   overflow: hidden; /* Обеспечивает, что контент не выходит за рамки элемента */
+  background-color: #FFFFFF;
 }
 
 .team__item-content {
@@ -241,14 +243,15 @@ body {
 }
 
 .team__item-title {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 8px;
   text-align: center; /* Выравнивание заголовка по центру */
 }
 
 .team__item-text {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   text-align: center; /* Выравнивание текста по центру */
 }
@@ -262,6 +265,8 @@ body {
 
 .portfolio__title {
   margin-bottom: 72px;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .portfolio__list {
@@ -298,9 +303,13 @@ body {
 }
 
 .portfolio__item-title {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 8px;
+}
+
+.portfolio__item-text {
+  font-weight: 400;
 }
 
 
@@ -317,7 +326,6 @@ body {
 }
 
 .footer__text {
-  font-size: 14px;
   color: #F4F4FD;
   max-width: 264px; 
 }
